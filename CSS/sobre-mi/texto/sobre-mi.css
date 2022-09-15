@@ -1,0 +1,36 @@
+@media screen and (min-width: 1200px){
+    .sobre-mi{
+        padding: 52px 153px;
+        background-color: #f2f2f2;
+    }
+    .sobre-mi__container{
+        width: 100%;
+    }
+
+    .sobre-mi__titulo{
+        font-size: 32px;
+        padding-bottom: 30px;
+        font-weight: 700;
+        text-align: center;
+    }
+    .sobre-mi__img{
+        height: 250px;
+        transition: 1s all;
+    }
+    .sobre-mi__img:hover{
+        transform: scale(1.1);
+    }
+    .sobre-mi__container__texto{
+        width: 100%;
+        justify-content: space-around;
+        align-content: flex-start;
+        display: flex;
+        flex-direction:row;
+    }
+    .sobre-mi__texto_biografia{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        padding-bottom: 10px;
+    }
+}

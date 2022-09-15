@@ -1,0 +1,26 @@
+.link__icon{
+    width: 12px;
+    transition: 1s all;
+}
+.link__icon:hover{
+    transform: scale(1.4);
+}
+@media screen and (min-width: 1200px){
+    .presentacion__subtitulo{
+        font-size: 17px;
+        line-height: 23px;
+        width: 600px;
+        margin-bottom: 30px;
+    }
+    .presentacion__redes{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px;
+        width: 500px;
+        line-height: 16px;
+    }
+    .link__icon{
+        width: 35px;
+    }
+}

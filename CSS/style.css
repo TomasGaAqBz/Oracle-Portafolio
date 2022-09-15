@@ -1,0 +1,9 @@
+
+    *{
+        font-family: 'Raleway', sans-serif;
+    }
+.footer__rodape{
+    text-align: center;
+    width: 100%;
+    padding: 32px;
+}

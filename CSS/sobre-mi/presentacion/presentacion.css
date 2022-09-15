@@ -1,0 +1,36 @@
+.presentacion{
+    justify-content: space-around;
+    align-content: flex-start;
+    display: flex;
+    color: #262626;
+    flex-direction: row;
+}
+.prensentacion__imagen{
+    height: 98px;
+}
+@media screen and (min-width: 1200px){
+    .presentacion{
+        margin:  0 153px;
+        flex-direction: row-reverse;
+    }
+    .presentacion__titulo{
+        font-size: 50px;
+        font-weight: 700 ;
+        line-height: 61px;
+        padding-top: 50px;
+    }
+    .prensentacion__imagen{
+        height: 368px;
+    }
+    .sobre-mi__presentacion{
+        width: 100%;
+        height: 20%;
+        display: flex;
+        background: rgb(242,242,242);
+        background: linear-gradient(0deg, rgba(242,242,242,1) 2%, rgba(242,213,126,1) 7%);;
+    }
+    .presentacion__container{
+        width: 100%;
+        height: 30vw;
+    }
+    }

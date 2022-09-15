@@ -1,0 +1,29 @@
+@media screen and (min-width: 1200px){
+    .contacto{
+        padding: 64px 0;
+        background: (rgb242,242,242,1);
+        background: linear-gradient(0deg, rgba(242,242,242,1) 85%, rgba(242,213,126,1) 95%);
+    }
+    .contacto__container{
+        display: flex;
+        padding-top: 129px;
+    }
+    .contacto__img{
+        height: 593px;
+    }
+    .contacto__container__texto{
+        display: flex;
+        flex-direction: column;
+    }
+    .contacto_titulo{
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 38px;
+        margin-bottom: 8px;
+    }
+    .contacto_subtitulo{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+    }
+}

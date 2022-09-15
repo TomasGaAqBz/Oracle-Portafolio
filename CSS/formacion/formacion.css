@@ -1,0 +1,42 @@
+@media screen and (min-width: 1200px){
+    .formacion{
+        padding: 64px 0;
+        background-color: #f2f2f2;
+    }
+    .formacion__titulo{
+        font-size: 32px;
+        font-weight: 700;
+        text-align: center;
+    }
+    .formacion__cursos{
+        display: flex;
+        justify-content: center;
+
+    }
+    .formacion__cursos__container{
+        width: 26.5rem;
+        margin: 0 1rem;
+    }
+    .formacion__cursos__container ul li{
+        margin: 32px;
+        padding: 0;
+    }
+    .formacion__cursos__item__img{
+        padding: 8%;
+        margin: 32px;
+    }
+    .formacion__cursos__lista img{
+        height: 100px;
+    }
+    .formacion__cursos__item__titulo{
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 25px;
+    }
+    .formacion__cursos__item__subtitulo{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        
+    }
+}
