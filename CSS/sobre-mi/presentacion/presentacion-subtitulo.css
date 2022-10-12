@@ -5,7 +5,7 @@
 .link__icon:hover{
     transform: scale(1.4);
 }
-@media screen and (min-width: 1200px){
+
     .presentacion__subtitulo{
         font-size: 17px;
         line-height: 23px;
@@ -23,4 +23,3 @@
     .link__icon{
         width: 35px;
     }
-}

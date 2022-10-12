@@ -1,4 +1,4 @@
-@media screen and (min-width: 1200px){
+
     .experiencia{
         padding: 64px 100px;
         background: rgb(242,213,126);
@@ -58,4 +58,3 @@
     .experiencia__boton_link:hover{
         transform: scale(1.1);
     }
-}

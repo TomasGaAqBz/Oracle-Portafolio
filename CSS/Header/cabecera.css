@@ -11,9 +11,7 @@
 }
 
 
-@media screen and (min-width: 1200px){
     .cabecera{
 
         background: linear-gradient( 0deg,#f2d57e 0%,#f2c230 30%);
     }
-}

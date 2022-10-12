@@ -1,4 +1,4 @@
-@media screen and (min-width: 1200px){
+
     .hobbies{
         padding: 64px 100px;
         background: rgb(242,242,242);
@@ -42,4 +42,3 @@
     .hobbies__img__size{
         width: 50px;
     }
-}

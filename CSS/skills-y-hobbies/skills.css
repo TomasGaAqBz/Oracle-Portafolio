@@ -1,4 +1,4 @@
-@media screen and (min-width: 1200px){
+
     .skills{
         background: rgb(242,213,126);
         background: linear-gradient(0deg, rgba(242,213,126,1) 85%, rgba(242,242,242,1) 95%);
@@ -43,4 +43,3 @@
     .skill__img__size{
         width: 50px;
     }
-}
