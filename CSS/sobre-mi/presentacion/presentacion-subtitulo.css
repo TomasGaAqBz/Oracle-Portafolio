@@ -23,3 +23,22 @@
     .link__icon{
         width: 35px;
     }
+
+    @media screen and (max-width:768px){
+        .presentacion__subtitulo{
+            font-size: 14px;
+            line-height: 16px;
+        }
+        .presentacion__redes{
+            display: flex;
+            flex-direction: row;
+            padding: 0;
+            gap: 8px;
+            align-items: center;
+            width: 60px;
+            height: 15px;
+        }
+        .presentacion__redes__item{
+            margin: 15px;
+        }
+    }

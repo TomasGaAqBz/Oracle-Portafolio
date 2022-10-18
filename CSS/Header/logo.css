@@ -1,11 +1,16 @@
 .logo{
     height: 100%;
-}
-
-
-   .logo{
-        height: 100%;
-        width: 5rem;
-        margin: 0 153px;
+    margin: 0 153px;
+    }
+    @media screen and (max-width:768px){
+        .logo{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding: 0;
+            gap: 8px;
+            width: 90px;
+            height: 90px;
+        }
     }
 
