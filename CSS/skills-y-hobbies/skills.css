@@ -3,11 +3,24 @@
         background: rgb(242,213,126);
         background: linear-gradient(0deg, rgba(242,213,126,1) 85%, rgba(242,242,242,1) 95%);
         padding: 64px 100px;
+        display: flex;
+
+
+    }
+    .skills__titulo_container{
+        height: 0px;
+        width: 100%;
+        align-items: center;
     }
     .skills__titulo{
+        display: inline-block;
+        height: 300px;
+        width: 100%;
         font-size: 32px;
         font-weight: 700;
         text-align: center;
+        align-items: center;
+
     }
     .skills__linea{
         display: flex;
@@ -42,4 +55,47 @@
     }
     .skill__img__size{
         width: 50px;
+    }
+    @media screen and (max-width:768px){
+        .skills{
+            display: flex;
+            flex-direction: column;
+            padding: 16px;
+            gap: 32px;
+            width: 360px;
+            height: 510px;
+        }
+        .skills__titulo{
+            font-size: 22px;
+            line-height: 26px;
+            text-align: center;
+        }
+        .skills__linea{
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+        }
+        .skills__container{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 16px;
+            gap: 10px;
+            width: 130px;
+            height: 100px;
+            margin-right: 30px;
+        }
+        .skill__img__size{
+            height: 37px;
+            width: 37px;
+        }
+        .skills__container ul{
+            font-size: 16px;
+            line-height: 19px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            
+        }
     }
